@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e853d37-19fb-4520-a32f-1a62cd7328f4" name="Changes" comment="First test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +33,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/User/Desktop/Programmation/B3/Java/Palindrome",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest.testMirrorWord">
+  <component name="RunManager" selected="JUnit.MainTest.testPalindrome">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Palindrome_TimotheeGAROT" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,11 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.testPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Palindrome_TimotheeGAROT" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.testPalindrome" />
+        <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.testMirrorWord" />
         <item itemvalue="JUnit.MainTest.MirrorWord" />
-        <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +100,7 @@
       <workItem from="1674054434552" duration="217000" />
       <workItem from="1675066903085" duration="48000" />
       <workItem from="1675068638610" duration="76000" />
-      <workItem from="1677413852642" duration="762000" />
+      <workItem from="1677413852642" duration="1550000" />
     </task>
     <task id="LOCAL-00001" summary="First test">
       <created>1677414371508</created>

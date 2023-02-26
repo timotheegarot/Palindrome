@@ -14,6 +14,25 @@ public class Main {
         return new StringBuilder(str).reverse().toString();
     }
 
+    public static String palindromeCheck(String word) {
+        int leftPos = 0;
+        int rightPos = word.length()-1;
+        boolean palindrome=true;
+
+        while ((leftPos < rightPos) && palindrome) {
+            if (word.charAt(leftPos) != word.charAt(rightPos)) {
+                palindrome=false;
+            }
+            leftPos++;
+            rightPos--;
+        }
+
+        if (palindrome) {
+            System.out.println("Bien dit !");
+        }
+        return word;
+    }
+
     /**
      * Fonction permettant d'afficher l'heure et la date
      */
@@ -31,7 +50,7 @@ public class Main {
         String word = scanner.nextLine();
         String reverseWord = reverse(word);
 
-        int leftPos = 0;
+        /*int leftPos = 0;
         int rightPos = word.length()-1;
         boolean palindrome=true;
 
@@ -45,7 +64,9 @@ public class Main {
 
         if (palindrome) {
             System.out.println("Bien dit !");
-        }
+        }*/
+
+        palindromeCheck(word);
 
         System.out.println(reverseWord);
         //salutationDate();
