@@ -12,8 +12,9 @@ public class MainTest {
         //Arrange
         String testWord = "test";
         //Act
+        String reverseWord = Main.reverse(testWord);
         //Assert
-        Assert.assertEquals("tset", Main.reverse(testWord));
+        Assert.assertEquals("tset", reverseWord);
     }
     
     // QUAND on saisit un palindrome ALORS celui-ci est renvoyé ET « Bien dit » est envoyé ensuite
