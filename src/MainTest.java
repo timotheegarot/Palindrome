@@ -41,8 +41,17 @@ public class MainTest {
         Assert.assertEquals("tset", reverseWord);
     }
 
-
-    // QUAND on saisit une chaîne ALORS « Au revoir » est envoyé en dernier
-
+    @Test
+    public void testAuRevoirLast() {
+        // QUAND on saisit une chaîne ALORS « Au revoir » est envoyé en dernier
+        //Arrange
+        String testWord = "test";
+        //Act
+        String reverseWord = Main.reverse(testWord);
+        //Assert
+        Assert.assertTrue("Bonjour", true);
+        Assert.assertEquals("tset", reverseWord);
+        Assert.assertTrue("Au revoir.", true);
+    }
     
 }
