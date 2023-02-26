@@ -1,3 +1,6 @@
+// import java.text.DateFormat;
+// import java.util.Calendar;
+// import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
@@ -10,6 +13,15 @@ public class Main {
     public static String reverse(String str) {
         return new StringBuilder(str).reverse().toString();
     }
+
+    /**
+     * Fonction permettant d'afficher l'heure et la date
+     */
+    // public static void salutationDate() {
+    //     Date today = new Date();
+    //     DateFormat shortDateFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT);
+    //     System.out.println(shortDateFormat.format(today));
+    // }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -35,6 +47,8 @@ public class Main {
             System.out.println("Bien dit !");
         }
 
-        System.out.print(reverseWord);
+        System.out.println(reverseWord);
+        //salutationDate();
+        System.out.println("Au revoir.");
     }
 }
