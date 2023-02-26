@@ -29,7 +29,19 @@ public class MainTest {
         Assert.assertTrue("Bien dit !", true);
     }
 
-    // QUAND on saisit une chaîne ALORS « Bonjour » est envoyé avant toute réponse
+    @Test
+    public void testBonjourFirst() {
+        // QUAND on saisit une chaîne ALORS « Bonjour » est envoyé avant toute réponse
+        //Arrange
+        String testWord = "test";
+        //Act
+        String reverseWord = Main.reverse(testWord);
+        //Assert
+        Assert.assertTrue("Bonjour", true);
+        Assert.assertEquals("tset", reverseWord);
+    }
+
+
     // QUAND on saisit une chaîne ALORS « Au revoir » est envoyé en dernier
 
     

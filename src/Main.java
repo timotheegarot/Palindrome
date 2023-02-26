@@ -50,22 +50,6 @@ public class Main {
         String word = scanner.nextLine();
         String reverseWord = reverse(word);
 
-        /*int leftPos = 0;
-        int rightPos = word.length()-1;
-        boolean palindrome=true;
-
-        while ((leftPos < rightPos) && palindrome) {
-            if (word.charAt(leftPos) != word.charAt(rightPos)) {
-                palindrome=false;
-            }
-            leftPos++;
-            rightPos--;
-        }
-
-        if (palindrome) {
-            System.out.println("Bien dit !");
-        }*/
-
         palindromeCheck(word);
 
         System.out.println(reverseWord);
